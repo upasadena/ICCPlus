@@ -90,9 +90,3 @@ Preview:
 ```bash
 yarn run start
 ```
-
-Build:
-
-```bash
-yarn run make
-```
