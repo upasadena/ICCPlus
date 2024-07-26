@@ -2,6 +2,7 @@
 package-lock.json.old
 # yarn.lock
 forge.config.js.old
+bin.txt
 
 # Logs
 logs
