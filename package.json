@@ -7,15 +7,15 @@
     "appId": "com.plus.icc",
     "win": {
       "target": ["nsis", "squirrel", "portable", "zip"],
-      "icon": "./assets/icon-384x384.png"
+      "icon": "./assets/icon-768x768.png"
     },
     "linux": {
       "target": ["AppImage", "deb", "pacman"],
-      "icon": "./assets/icon-384x384.png"
+      "icon": "./assets/icon-768x768.png"
     },
     "mac": {
       "category": "public.app-category.games",
-      "icon": "./assets/icon-384x384.png"
+      "icon": "./assets/icon-768x768.png"
     }
   },
   "scripts": {
