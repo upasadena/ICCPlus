@@ -28,15 +28,15 @@ jobs:
           node-version: latest
           cache: 'yarn'
       
-      - name: Install misc dependencies
-        if: matrix.os == 'ubuntu-latest'
-        run: |
-          sudo apt install ruby
-          sudo gem install fpm
-          export USE_SYSTEM_FPM=true
-          export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-          export PATH="$PATH:$GEM_HOME/bin"
-          yarn
+      # - name: Install misc dependencies
+      #   if: matrix.os == 'ubuntu-latest'
+      #   run: |
+      #     sudo apt install ruby
+      #     sudo gem install fpm
+      #     export USE_SYSTEM_FPM=true
+      #     export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+      #     export PATH="$PATH:$GEM_HOME/bin"
+      #     yarn
 
       - name: Build/release Electron app
         # uses: samuelmeuli/action-electron-builder@v1
