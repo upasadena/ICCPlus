@@ -26,6 +26,7 @@
     "publish": "env-cmd electron-forge publish"
   },
   "author": "wahaha303",
+  "email": "john.doe@email.com",
   "license": "UNLICENSED",
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
