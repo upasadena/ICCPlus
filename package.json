@@ -27,6 +27,7 @@
   },
   "author": "wahaha303",
   "email": "john.doe@email.com",
+  "maintainers": ["wahaha303"],
   "license": "UNLICENSED",
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
