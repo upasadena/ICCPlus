@@ -80,6 +80,10 @@ Prerequisites for Arch:
 * dpkg
 * fakeroot
 * rpmbuild
+* flatpak-builder
+* eu-strip
+* `npm install env-cmd` (for publishing)
+* `flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo` (for making)
 
 Preview:
 

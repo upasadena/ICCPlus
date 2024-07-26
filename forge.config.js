@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-zip',
-      platforms: ['darwin'],
+      platforms: ['darwin', 'win32'],
     },
     {
       name: '@electron-forge/maker-deb',
@@ -22,6 +22,29 @@ module.exports = {
     {
       name: '@electron-forge/maker-rpm',
       config: {},
+    },
+    // {
+    //   name: '@electron-forge/maker-flatpak',
+    //   config: {
+    //     options: {
+    //       categories: ['Video'],
+    //       mimeType: ['video/h264']
+    //     }
+    //   }
+    // },
+    {
+      name: '@electron-forge/maker-dmg',
+      config: {
+        // background: './assets/dmg-background.png',
+        format: 'ULFO'
+      }
+    },
+    {
+      name: '@pengx17/electron-forge-maker-appimage',
+      platforms: ['linux'],
+      config: {
+        // template: 'assets/AppRunTemplate.sh'
+      },
     },
   ],
   plugins: [
@@ -40,5 +63,18 @@ module.exports = {
       [FuseV1Options.EnableEmbeddedAsarIntegrityValidation]: true,
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
+  ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'upasadena',
+          name: 'ICCPlus'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
   ],
 };
