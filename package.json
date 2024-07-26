@@ -3,6 +3,25 @@
   "version": "1.4.3",
   "description": "A modified version of the Interactive CYOA Creator by wahaha303.",
   "main": "main.js",
+  "build": {
+    "appId": "com.plus.icc",
+    "win": {
+      "target": ["nsis", "squirrel", "portable", "zip"],
+      "icon": "./assets/android-icon-192x192.png",
+      "COMMENT-fileAssociations": {
+        "ext": "png",
+        "icon": "./assets/android-icon-192x192.png"
+      }
+    },
+    "linux": {
+      "target": ["AppImage", "deb", "pacman"],
+      "icon": "./assets/android-icon-192x192.png"
+    },
+    "mac": {
+      "category": "public.app-category.games",
+      "icon": "./assets/android-icon-192x192.png"
+    }
+  },
   "scripts": {
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
