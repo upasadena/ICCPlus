@@ -74,3 +74,21 @@ Link to [ICC Plus](https://hikawasisters.neocities.org/ICCPlus/)
  - Fixed issues with 'Clean Activated' feature.
  - Fixed issues with 'Scores Updated On'.
 
+## Building native application
+
+Prerequisites for Arch:
+* dpkg
+* fakeroot
+* rpmbuild
+
+Preview:
+
+```bash
+yarn run start
+```
+
+Build:
+
+```bash
+yarn run make
+```
