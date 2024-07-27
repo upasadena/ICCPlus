@@ -7,13 +7,13 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <script src="/favi/favi.js"></script>
 	  <script src="https://cdn.jsdelivr.net/npm/libavif.js@latest/dist/libavif.js"></script>
-    <link rel=stylesheet href=assets/css/bootstrap.min.css
+    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
         integrity=sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm crossorigin=anonymous>
-    <script src=assets/js/vue-select.js></script>
-    <link rel=stylesheet href=assets/css/vue-select.css crossorigin=anonymous>
+    <script src=https://unpkg.com/vue-select@latest></script>
+    <link rel=stylesheet href=https://unpkg.com/vue-select@latest/dist/vue-select.css crossorigin=anonymous>
     <title>ICC Plus</title>
-    <link rel=stylesheet href="assets/css/font.css" crossorigin="anonymous">
-    <link rel=stylesheet href=assets/css/materialdesignicons.min.css crossorigin=anonymous>
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" crossorigin="anonymous">
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css crossorigin=anonymous>
     <link href=js/chunk-2d0e6102.09695d49.js rel=prefetch>
     <link href=css/app.e7eb167a.css rel=preload as=style>
     <link href=css/chunk-vendors.ebaa52b5.css rel=preload as=style>

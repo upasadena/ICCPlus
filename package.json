@@ -1,6 +1,6 @@
 {
   "name": "icc-plus",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A modified version of the Interactive CYOA Creator by wahaha303.",
   "main": "main.js",
   "build": {
