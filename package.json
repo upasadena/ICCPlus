@@ -12,18 +12,21 @@
         "portable",
         "zip"
       ],
-      "icon": "./assets/icon-768x768.png"
+      "icon": "./assets/icon-768x768.png",
+      "publish": ["github"]
     },
     "linux": {
       "target": [
         "AppImage",
         "deb"
       ],
-      "icon": "./assets/icon-768x768.png"
+      "icon": "./assets/icon-768x768.png",
+      "publish": ["github"]
     },
     "mac": {
       "category": "public.app-category.games",
-      "icon": "./assets/icon-768x768.png"
+      "icon": "./assets/icon-768x768.png",
+      "publish": ["github"]
     }
   },
   "scripts": {
