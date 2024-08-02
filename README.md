@@ -88,4 +88,20 @@ Link to [ICC Plus](https://hikawasisters.neocities.org/ICCPlus/)
  - Fixed an issue where Rows/Choices were not being deleted correctly.
  - Fixed an issue where Addons were not affected by Design Groups.
  - Fixed an issue where Design Groups were not being properly loaded in the Viewer.
- 
+
+## Building native application
+
+Prerequisites for Arch:
+* dpkg
+* fakeroot
+* rpmbuild
+* flatpak-builder
+* eu-strip
+* `npm install env-cmd` (for publishing)
+* `flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo` (for making)
+
+Preview:
+
+```bash
+yarn run start
+```
